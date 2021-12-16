@@ -22,8 +22,10 @@ function generateMarkdown(data) {
 
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Credits](#credits)
   * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
   ## Installation
 
@@ -45,8 +47,9 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  [GitHub](${data.github})
-  [Email](${data.email})
+  [GitHub](https://github.com/${data.github})
+
+  [Email](mailto:${data.email})
 
 `;
 }

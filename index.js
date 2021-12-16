@@ -32,17 +32,30 @@ const questions = () => {
             }
         },
         {
-            type: 'confirm',
-            name: 'confirmContents',
-            message: 'Would you like to add a table of contents?',
-            default: false
+            type: 'input',
+            name: 'installation',
+            message: 'Describe the steps required to install your project',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter installation instructions!');
+                    return false;
+                }
+            }
         },
         {
-            type: 'checkbox',
-            name: 'contents',
-            message: 'Which sections would you like to add to your table of contents? Check all that apply.',
-            choices: ['Installation', 'Usage', 'Credits', 'License'],
-            when: ({ confirmContents }) => confirmContents
+            type: 'input',
+            name: 'usage',
+            message: 'Provide instructions and examples for use.',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter instructions!');
+                    return false;
+                }
+            }
         },
         {
             type: 'confirm',
@@ -59,13 +72,47 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'installation',
-            message: 'Describe the steps required to install your project',
+            name: 'contributing',
+            message: 'Provide a list of all contributors including any tutorials used',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter all contributors!');
+                    return false;
+                }
+            }
         },
         {
             type: 'input',
-            name: 'usage',
-            message: 'Provide instructions and examples for use.'
+            name: 'tests',
+            message: 'List all tests (if any), along with examples of how to use them.'
+        },
+        {
+            type: 'input',
+            name: 'github',
+            message: 'Enter your github username.',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter username!');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'Enter your email address.',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter email!');
+                    return false;
+                }
+            }
         }
     ]);
 }
