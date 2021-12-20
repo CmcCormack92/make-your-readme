@@ -1,8 +1,7 @@
-# c
+# n
 
   ## Description
-
-  c
+  n
 
   ## Table of contents
 
@@ -14,26 +13,27 @@
   * [Questions](#questions)
 
   ## Installation
-
-  c
+  n
 
   ## Usage
+  n
 
-  c
+  
 
-  function renderLicenseSection(license) { }
+  
+
+  
+
 
   ## Contributing
-  
-  undefined
+  n
 
   ## Tests
-
-  c
+  n
 
   ## Questions
 
-  [GitHub](https://github.com/c)
+  [GitHub](https://github.com/n)
 
-  [Email](mailto:chrismack135@gmail.com)
+  [Email](mailto:n)
 
