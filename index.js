@@ -20,7 +20,7 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Enter a description of your project',
+        message: 'Enter a description of your project.',
         validate: nameInput => {
             if (nameInput) {
                 return true;
@@ -33,7 +33,7 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        message: 'Describe the steps required to install your project',
+        message: 'Describe the steps required to install your project.',
         validate: nameInput => {
             if (nameInput) {
                 return true;
@@ -72,7 +72,7 @@ const questions = [
     {
         type: 'input',
         name: 'contributing',
-        message: 'Provide a list of all contributors including any tutorials used',
+        message: 'Provide a list of all contributors including any tutorials used.',
         validate: nameInput => {
             if (nameInput) {
                 return true;
