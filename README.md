@@ -1,4 +1,5 @@
 # ReadMe Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
   This program allows you to create a README.md file from the command line on your computer. This allows for a quick and simple way to create your README.
@@ -22,8 +23,6 @@
   ## License
   This project was created uning the MIT License
  
-
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   [MIT License](https://choosealicense.com/licenses/mit/)
 
