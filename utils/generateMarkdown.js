@@ -72,8 +72,6 @@ function generateMarkdown(answers) {
 
   ${renderLicenseSection(answers.license)}
 
-  ${renderLicenseBadge(answers.license)}
-
   ${renderLicenseLink(answers.license)}
 
 
