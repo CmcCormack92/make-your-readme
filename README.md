@@ -18,7 +18,9 @@
 
   ## Usage
   To use this program you will need to use command line to navigate to the directory in which the program is located. Once there you can use the command 'node index' to iniate the questions prompts. Fill out all your answers accordingly. Once completed the README.md file will generate in the 'dist' directory.
-
+  
+  # Video walkthrough
+  [Walkthrough](https://watch.screencastify.com/v/GA6LctQlmKUIw92BkKqR) (Links to an external site.)
   
   ## License
   This project was created uning the MIT License
