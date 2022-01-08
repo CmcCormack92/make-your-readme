@@ -38,6 +38,8 @@
   ## Questions
 
   [GitHub](https://github.com/CmcCormack92)
+  
+  [GitHub Repo](https://github.com/CmcCormack92/readme-generator)
 
   [Email](mailto:chrismack135@gmail.com)
 
