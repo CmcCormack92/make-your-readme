@@ -39,7 +39,7 @@
 
   [GitHub](https://github.com/CmcCormack92)
   
-  [GitHub Repo](https://github.com/CmcCormack92/readme-generator)
+  [GitHub Repo](https://github.com/CmcCormack92/make-your-readme)
 
   [Email](mailto:chrismack135@gmail.com)
 
